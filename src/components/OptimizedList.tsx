@@ -6,6 +6,7 @@ import { List } from "./List";
 /* This example shows how memoizing child components will prevent rerendering them. */
 
 // This won't rerender when parent state changes
+// The state will compared
 const MemoizedList = memo(List);
 
 export const OptimizedList = () => {
