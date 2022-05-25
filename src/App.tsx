@@ -5,6 +5,8 @@ import { FilteredUnoptimizedList } from "./components/FilteredUnoptimizedList";
 import { FilteredOptimizedList } from "./components/FilteredOptimizedList";
 import { FilteredUnoptimizedListWithCallback } from "./components/FilteredUnoptimizedListWithCallback";
 import { FilteredOptimizedListWithCallback } from "./components/FilteredOptimizedListWithCallback";
+import { FilteredOptimizedListWithCallbackBuggyConsole } from "./components/FilteredOptimizedListWithCallbackBuggyConsole";
+import { FilteredOptimizedListWithCallbackNonBuggyConsole } from "./components/FilteredOptimizedListWithCallbackNonBuggyConsole";
 import './App.css';
 
 function App() {
@@ -20,6 +22,9 @@ function App() {
         <h1>useCallback example:</h1>
         <FilteredUnoptimizedListWithCallback />
         <FilteredOptimizedListWithCallback />
+        <h1>useCallback passed to useEffect:</h1>
+        <FilteredOptimizedListWithCallbackBuggyConsole />
+        <FilteredOptimizedListWithCallbackNonBuggyConsole />
       </header>
     </div>
   );
