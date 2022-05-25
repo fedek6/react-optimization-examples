@@ -26,7 +26,7 @@ export const OptimizedList = () => {
 
   return (
     <div className="test-compo">
-      <p>This component uses memo for it's child components.</p>
+      <p>😎 This component uses memo for it's child components.</p>
       <div>
         <input
           value={item}

@@ -24,7 +24,7 @@ export const UnoptimizedList = () => {
 
   return (
     <div className="test-compo">
-      <p>This component is unoptimized. It rerenders it's children.</p>
+      <p>😡 This component is unoptimized. It rerenders it's children.</p>
       <div>
         <input
           value={item}

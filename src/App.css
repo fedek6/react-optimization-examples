@@ -31,6 +31,7 @@
 .test-compo {
   border: solid 1px White;
   padding: 32px;
+  min-width: 66vw;
 }
 
 @keyframes App-logo-spin {
