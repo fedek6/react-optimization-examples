@@ -3,6 +3,8 @@ import { UnoptimizedList } from './components/UnoptimizedList';
 import { OptimizedList } from "./components/OptimizedList";
 import { FilteredUnoptimizedList } from "./components/FilteredUnoptimizedList";
 import { FilteredOptimizedList } from "./components/FilteredOptimizedList";
+import { FilteredUnoptimizedListWithCallback } from "./components/FilteredUnoptimizedListWithCallback";
+import { FilteredOptimizedListWithCallback } from "./components/FilteredOptimizedListWithCallback";
 import './App.css';
 
 function App() {
@@ -15,6 +17,9 @@ function App() {
         <h1>useMemo example:</h1>
         <FilteredUnoptimizedList />
         <FilteredOptimizedList />
+        <h1>useCallback example:</h1>
+        <FilteredUnoptimizedListWithCallback />
+        <FilteredOptimizedListWithCallback />
       </header>
     </div>
   );
